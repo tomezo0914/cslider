@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>cslider sample</title>
+    <link rel="stylesheet" href="stylesheets/jquery.cslider.css">
+  </head>
+  <body>
+    <div id="cslider">
+      <img src="images/01.jpg" style="top: 0px; left: 0px;">
+      <img src="images/02.jpg" style="top: 0px; left: 0px;">
+      <img src="images/03.jpg" style="top: 0px; left: 0px;">
+      <p class="cslider-caption">Sakura in Meguro</p>
+      <p class="cslider-caption">Design A</p>
+      <p class="cslider-caption">Tsuruoka shrine in Kamakura</p>
+    </div>
+    <div class="main">
+    </div>
+    <div class="covertitle">
+      <h1>cslider.js</h1>
+      <p>transition animation plugin</p>
+    </div>
+    <div id="overlay"></div>
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="javascripts/jquery.cslider.js"></script>
+    <script>
+      $(function() {
+        $('#cslider').cslider(
+          {
+            displayHeight: 250
+          }
+        );
+      });
+    </script>
+  </body>
+</html>

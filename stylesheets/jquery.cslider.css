@@ -1,0 +1,60 @@
+#cslider {
+  width: 660px;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+#cslider img {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.cslider-nav {
+  float: left;
+  position: absolute;
+  text-align: center;
+  left: 10px;
+  bottom: 10px;
+  z-index: 1000;
+}
+
+.cslider-nav a {
+  background: #fff;
+  color: #000;
+  font-family: verdana;
+  text-decoration: underline;
+  opacity: 0.8;
+  font-weight: bold;
+  padding: 2px 7px;
+  cursor: pointer;
+}
+
+.cslider-nav a.active {
+  background: #333;
+  color: #fff;
+  font-family: verdana;
+  text-decoration: underline;
+  opacity: 0.8;
+  font-weight: bold;
+  padding: 2px 7px;
+  cursor: pointer;
+}
+
+.cslider-caption {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background: #000;
+  color: #fff;
+  z-index: 8;
+  padding: 3px 5px;
+  cursor: pointer;
+}
+
+.cslider-caption a {
+  color: #fff;
+  text-decoration: none;
+}
